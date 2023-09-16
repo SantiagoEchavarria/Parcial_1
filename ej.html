@@ -3,65 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa</title>
+    <link rel="icon" href="imagenes/Presidente.PNG" type="image/x-icon">
+    <title>Gafica</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <a class="boton-fijo">
+        <img src="imagenes/was.png" alt="Botón Fijo" width="100px" height="100px">
+    </a>
+
     <header class="header">
         <div>
-            <img class="imagen-logo" src="imagenes/favicon.png" alt="">
-            <h1 class="Empresa">Empresa</h1>
+            <img class="imagen-logo" src="imagenes/logo.jpg" alt="">
+            <h1 class="Empresa">Gafica</h1>
         </div>
 
         <nav class="navbar">
-            <a href="" class="link" target="_blank">
-                <p>HOME</p>
+            <a href="#seccion-uno" class="link">
+                <h1>HOME</h1>
             </a>
-            <a href="" class="link" target="_blank">
-                <P>Servicios</P>
+            <a href="#seccion-dos" class="link" >
+                <h1>Servicios</h1>
             </a>
-            <a href="" class="link" target="_blank">
-               <P>Colaboradores</P>
+            <a href="#seccion-tres" class="link">
+               <h1>Colaboradores</h1>
             </a>
+            <a href="#footer" class="link">
+                <h1>Final</h1>
+             </a>
          
         </nav>
     </header>
 
-    <section class="seccion-uno">
+    <section id="seccion-uno" class="seccion-uno">
 
         <div class="texto">
-            <h2>Empresa</h2>
-            <h2>Descripcion</h2>
-            <p>
-              
-            </p>
+            <h2>Gafica</h2>
+            <h2>Construcciones Excelencia es una empresa dedicada a ofrecer servicios de construcción de alta calidad. Con más de dos décadas de experiencia en la industria de la construcción, 
+                nos hemos convertido en un referente en el sector.</h2>
+            
+        </div>
+
+        <div class="imagenSeccion1">
+            <img src="imagenes/Inicio.jpg" alt="" height="500px" width="500px">
         </div>
 
         <img src="" alt="">
     </section>
 
-    <section class="seccion-dos">
+
+    <section id="seccion-dos" class="seccion-dos">
+
         <div class="texto">
             <h2>Servicios</h2>
-            <div class="ColumnasSeccion2">
-                
+        </div>
+
+        <div class="servicios">
+            <div class="servicio">
+                <h2>Construcción Residencial 1</h2>
+                <h3>Nos especializamos en la construcción de viviendas de calidad, desde casas unifamiliares hasta complejos de apartamentos. Nuestros diseños son innovadores y se adaptan a las necesidades de nuestros clientes.</h3>
+            </div>
+            <div class="servicio">
+                <h2>Construcción Comercial</h2>
+                <h3>Ofrecemos servicios de construcción para proyectos comerciales, incluyendo oficinas, tiendas, restaurantes y más. Trabajamos en estrecha colaboración con los propietarios para garantizar que sus visiones se hagan realidad.</h3>
+            </div>
+            <div class="servicio">
+                <h2>Remodelaciones y Renovaciones</h2>
+                <h3>Transformamos espacios existentes en lugares modernos y funcionales. Ya sea que desee actualizar su hogar o lugar de trabajo, nuestro equipo experto lo ayudará en cada etapa del proceso.</h3>
             </div>
         </div>
-        <img src="" alt="">
-    </section>
-
-    <section class="seccion-tres">
-        <div class="texto">
-            <h2>Colaboraciones</h2>
-            <p>
-              
-            </p>
+        <div class="servicios">
+            <div class="servicio">
+                <h2>Construcción Industrial</h2>
+                <h3>Realizamos proyectos de construcción industrial, incluyendo almacenes, fábricas y plantas de producción. Nuestra experiencia en esta área garantiza resultados eficientes y seguros.</h3>
+            </div>
+            <div class="servicio">
+                <h2>Servicios de Consultoría</h2>
+                <h3>Ofrecemos servicios de consultoría en construcción, desde planificación y diseño hasta gestión de proyectos. Nuestros expertos brindan asesoramiento integral para garantizar el éxito de su proyecto.</h3>
+            </div>
+            <div class="servicio">
+                <h2>Servicios de Mantenimiento</h2>
+                <h3>Después de completar la construcción, proporcionamos servicios de mantenimiento preventivo y correctivo para garantizar que su inversión se mantenga en óptimas condiciones a lo largo del tiempo.</h3>
+            </div>
         </div>
-        <img src="" alt="">
     </section>
 
-    <footer>
+    <section id="seccion-tres" class="seccion-tres">
+
+        <div>
+            <h1>Colaboradores</h1>
+        </div>
+        
+        
+
+        <div class="Cargos">
+
+            <div class="Cargo">
+                <img src="imagenes/Presidente.PNG" alt="" width="250px" height="250px">
+                <h2>Maestro</h2>
+            </div>
+
+            <div class="Cargo">
+                <img src="imagenes/cargo2.jpg" alt="" width="250px" height="250px">
+                <h2>Oficial</h2>
+            </div>
+
+            <div class="Cargo">
+                <img src="imagenes/cargo3.PNG" alt="" width="250px" height="250px">
+                <h2>Ayudante</h2>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer id="footer" class="footer">
+        
         <img class="copyRight" src="imagenes/copy.png" alt="" width="100px" height="100px">
+        <a href="#seccion-uno">
+            <h3>Home</h3>
+        </a>
+        
     </footer>
 </body>
 </html>
