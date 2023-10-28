@@ -34,6 +34,8 @@ function mostrarBotones(){
  
   function aceptarAccion() {
     mostrarBotones();
+    mostrarSeccion2();
+    mostrarSeccion3();
     cerrarModal();
     ocultarVerMas();
   }
