@@ -17,10 +17,10 @@ function crearModal(){
     `
 }
 const data=[
-    {titulo: "Seccion uno",descripcion:"Descripcion de la uno"},
-    {titulo: "Seccion dos",descripcion:"Descripcion de la dos"},
-    {titulo: "Seccion tres",descripcion:"Descripcion de la tres"},
-    {titulo: "Seccion cuatro",descripcion:"Descripcion de la cuatro"},
+    {titulo: "Remodelación ",descripcion:"Descripcion de la uno"},
+    {titulo: "Construcción ",descripcion:"Descripcion de la dos"},
+    {titulo: "Renovación",descripcion:"Descripcion de la tres"},
+    {titulo: "Demolicion",descripcion:"Descripcion de la cuatro"},
    
     
 ];
